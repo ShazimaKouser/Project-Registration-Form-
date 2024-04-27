@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0px 0px;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: transparent;
+            background-image: linear-gradient(to left, #169493, #33d1a0);
+        }
+
+
+        .img {
+            width: 370px;
+            height: 490px;
+            max-height: 490px;
+            max-width: 370px;
+            display: inline-block;
+            margin-left: 120px;
+            margin-top: 30px;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+
+        }
+
+        .img1 {
+            position: absolute;
+            display: inline-block;
+            top: 27%;
+            left: 361px;
+            color: #b9b7bc;
+            font-size: 10px;
+            font-weight: lighter;
+        }
+
+        .img2 {
+            position: absolute;
+            display: inline-block;
+            top: 29%;
+            left: 360px;
+            color: white;
+            font-size: 22px;
+            font-weight: lighter;
+
+        }
+
+        .img3 {
+            position: absolute;
+            top: 78%;
+            left: 325px;
+            color: #b9b7bc;
+            font-size: 12px;
+            font-weight: lighter;
+            font-style: italic;
+            font-family: sans-serif;
+        }
+
+        .Registration {
+            float: right;
+            height: 82%;
+            background-color: #fff0f0;
+            display: inline-block;
+            width: 36%;
+            padding: 33px 111px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            position: absolute;
+            top: 60px;
+            left: 600px;
+        }
+
+        .Registration h1 {
+            font-size: 21px;
+            position: relative;
+            left: 80px;
+            color: #169493;
+            font-weight: bolder;
+        }
+
+        .Registration h2 {
+            font-size: 10px;
+            position: relative;
+            left: 80px;
+            color: #b9b7bc;
+            font-weight: lighter;
+        }
+
+        .inside-form {
+            display: inline-block;
+            height: 50px;
+            width: 397px;
+            font-size: 11px;
+            font-weight: normal;
+            margin: 2px 0px;
+            padding: 15px 8px;
+            color: black;
+            text-align: left;
+            margin-left: -25px;
+        }
+
+        .inside-form1 {
+            height: 50px;
+            width: 397px;
+            font-size: 11px;
+            font-weight: normal;
+            margin: -5px -25px;
+            padding: 13px 8px;
+            color: #169493;
+            text-align: left;
+            margin-left: -26px;
+        }
+
+
+        .s1 {
+            display: inline;
+            margin: 0px 30px;
+            top: 0px;
+            left: 50px;
+        }
+
+        .s2 {
+            display: inline;
+            margin: 0px 15px;
+            top: 0px;
+            left: 112px;
+            color: #169493;
+        }
+
+        .s3 {
+            display: inline;
+            margin: 0px 25px;
+            top: 2px;
+            left: 156px;
+        }
+
+        .s4 {
+            display: inline;
+            margin: 0px -2px;
+            top: 2px;
+        }
+
+        .Gender {
+            margin: 0, auto;
+            margin-left: 52px;
+            margin-right: 10px;
+            margin-top: 2px;
+        }
+
+        .female {
+            margin-left: 52px;
+            margin-right: 10px;
+        }
+
+        .Registration button {
+            display: inline;
+            width: 28%;
+            margin: 12px -77px;
+            margin-left: 93px;
+            top: -7px;
+            border: none;
+        }
+
+        .btn {
+            padding: 9px 13px;
+            color: white;
+            background-color: #332c56;
+            top: 1px;
+            font-size: 13px;
+            cursor: pointer;
+            font-weight: bold;
+            text-decoration: none;
+            border: none;
+        }
+
+        .btn:hover {
+            background-color: #169493;
+            color: white;
+        }
+
+        .btn1 {
+            padding: 9px 9px;
+            background-color: #169493;
+            margin: 1px;
+            color: white;
+            font-size: 13px;
+            cursor: pointer;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .btn1:hover {
+            background-color: #332c56;
+            color: white;
+        }
+
+        .inp {
+
+            float: right;
+            margin-right: 60px;
+            padding: 6px 6px;
+            width: 60%;
+            background-color: transparent;
+            background-image: linear-gradient(to right, #e6dbdb, #ebe3e3);
+            border: none;
+        }
+
+        .loginhere {
+            font-family: sans-serif;
+            font-size: 12px;
+            margin-left: 86px;
+            margin-top: 2px;
+        }
+
+        .loginhere a {
+            color: #169493;
+            font-family: sans-serif;
+            font-size: 12px;
+            margin-left: -3px;
+            margin-top: 2px;
+            text-decoration: none;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Main">
+        <div class="img">
+            <img class="img" src="Project.jpg" alt="demo image">
+            <span class="img1">CLICK FOR YOUR SHOOT</span>
+            <span class="img2">Photography.</span>
+            <span class="img3">JOURNEY EVERYWHERE</span>
+        </div>
+        <form action="#">
+            <div class="Registration">
+                <h1>Registration</h1>
+                <h2>CLICK FOR YOUR SHOOT</h2>
+                <div class="inside-form">
+                    Name <input class="inp" type="text" name="name" placeholder="Tanvir Hasan">
+                </div>
+                <div class="inside-form">
+                    Email <input class="inp" type="email" name="my email" placeholder="ftanvirhasan@gmail.com">
+                </div>
+                <div class="inside-form1">
+                    <label for="Gender"> Gender </label>
+                    <input class="Gender" type="radio" name="my Gender">Male <input class="female" type="radio"
+                        name="my Gender">female
+                </div>
+                <div class="inside-form">
+                    Date of Birth <input class="inp" type="datetime" placeholder="May 25,1997">
+                </div>
+                <div class="inside-form">
+                    City <input class="inp" type="text" placeholder="Dhaka">
+                </div>
+                <div class="inside-form">
+                    Country <input class="inp" type="text" placeholder="Bangladesh">
+                </div>
+                <div class="inside-form">
+                    <div class="s4">Subscription
+                        <div class="s1"> <input type="radio" name="Subscription"><label for="Bronze"> Bronze</label>
+                        </div>
+                        <div class="s2"> <input type="radio" name="Subscription"> Silver
+                        </div>
+                        <div class="s3"> <input type="radio" name="Subscription"> Gold
+                        </div>
+                    </div>
+                    <div>
+                        <button class="btn">CANCEL</button>
+                        <button class="btn1">Confirm</button>
+                        <p class="loginhere">Already have an account? <a href="login.html">signin
+                                here!</a></p>
+                    </div>
+                </div>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="https://fontawesome.com/icons/eye-slash?f=sharp&s=solid">
+    <style>
+        body {
+            margin: 0;
+            padding: 0px 0px;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: transparent;
+            background-image: linear-gradient(to left, #58d3d3, rgb(159, 219, 199));
+        }
+
+        .img {
+            width: 370px;
+            height: 490px;
+            max-height: 490px;
+            max-width: 370px;
+            display: inline-block;
+            margin-left: 118px;
+            margin-top: 30px;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+
+        }
+
+        .img1 {
+            position: absolute;
+            display: inline-block;
+            top: 27%;
+            left: 361px;
+            color: #b9b7bc;
+            font-size: 10px;
+            font-weight: lighter;
+        }
+
+        .img2 {
+            position: absolute;
+            display: inline-block;
+            top: 29%;
+            left: 360px;
+            color: white;
+            font-size: 22px;
+            font-weight: lighter;
+        }
+
+        .img3 {
+            position: absolute;
+            top: 78%;
+            left: 325px;
+            color: #b9b7bc;
+            font-size: 12px;
+            font-weight: lighter;
+            font-style: italic;
+            font-family: sans-serif;
+        }
+
+        .login h1 {
+            top: 0px;
+            font-size: 30px;
+            position: relative;
+            left: 40px;
+            color: #169493;
+            font-weight: bolder;
+        }
+
+
+        .login {
+            float: right;
+            height: 71%;
+            background-color: #fff0f0;
+            display: inline-block;
+            width: 18%;
+            padding: 33px 111px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            position: absolute;
+            top: 60px;
+            left: 600px;
+        }
+
+        .inside-form {
+            display: inline-block;
+            height: 50px;
+            width: 293px;
+            font-size: 13px;
+            font-weight: normal;
+            margin: -6px 0px;
+            padding: 19px 8px;
+            color: #58d3d3;
+            text-align: center;
+            margin-left: -25px;
+            top: 2px;
+        }
+
+        .submit {
+            padding: 8px 32px;
+            color: white;
+            background-color: #169493;
+            top: 2px;
+            font-size: 13px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-left: 75px;
+            margin-right: 55px;
+            margin-top: 16px;
+            border: none;
+        }
+
+        .btn:hover {
+            background-color: #332c56;
+            color: white;
+        }
+
+        .login Button {
+            display: inline-block;
+            width: 46%;
+            margin: 0px 0px;
+            padding: 7px 1px;
+            margin-left: 76px;
+            margin-top: 18px;
+            border: none;
+            background-color: #58d3d3;
+        }
+
+        .btn {
+            padding: 10px 13px;
+            color: white;
+            background-color: #169493;
+            top: 1px;
+            font-size: 13px;
+            cursor: pointer;
+            font-weight: bold;
+            text-decoration: none;
+            border: none;
+        }
+
+        .checkbox {
+            height: 10px;
+            width: 10px;
+            margin: 9px 9px;
+            padding: 0px 0px;
+        }
+
+
+        .submit:hover {
+            background-color: #332c56;
+            color: white;
+        }
+
+        .inp {
+            float: left;
+            padding: 10px 20px;
+            width: 84%;
+            background-color: transparent;
+            border-radius: 10px;
+            background-image: linear-gradient(to right, #e6dbdb, #ebe3e3);
+            border: none;
+
+        }
+
+        .label {
+            float: left;
+        }
+
+        .forget {
+            margin-left: 125px;
+            font-size: 11px;
+            color: #169493;
+            margin-top: 0px;
+        }
+
+        .Remember {
+            margin: auto;
+            font-size: 11px;
+            color: #169493;
+            margin-top: -30px;
+            margin-left: -22px;
+        }
+
+        .loginhere {
+            font-family: sans-serif;
+            font-size: 12px;
+            margin-left: -13px;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .loginhere a {
+            color: #169493;
+            font-family: sans-serif;
+            font-size: 12px;
+            margin-left: -3px;
+            margin-top: 2px;
+            text-decoration: none;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Main">
+        <div class="img">
+            <img class="img" src="Project.jpg" alt="demo image">
+            <span class="img1">CLICK FOR YOUR SHOOT</span>
+            <span class="img2">Photography.</span>
+            <span class="img3">JOURNEY EVERYWHERE</span>
+        </div>
+        <form action="#">
+            <div class="login">
+                <h1>Sign up</h1>
+                <div class="inside-form">
+                    <label class="label" for=" User Name"> User Name</label>
+                    <input class="inp" type="text" name="name" placeholder="Username">
+                </div>
+                <div class="inside-form">
+                    <label class="label" for="Email">Email address</label><input class="inp" type="email"
+                        name="my email" placeholder="Email or Mobile Number">
+                </div>
+                <div class="inside-form">
+                    <label class="label" for=" Password"> Password</label><input class="inp" type="text" name="name"
+                        placeholder="********">
+                </div>
+                <div class="forget">
+                    <input class="checkbox" type="checkbox" name=""> Forget Password
+                    <br>
+                </div>
+                <div class="Remember">
+                    <input class="checkbox" type="checkbox" name=""> Remember me
+                </div>
+
+                <div class="inside-form">
+                    <input class="submit" type="submit" name="" value="log in">
+                </div>
+                <div>
+                    <p class="loginhere">Already have an account? <a href="Index.html">signin
+                            here!</a></p>
+                </div>
+
+            </div>
+
+    </div>
+</body>
+
+</html>

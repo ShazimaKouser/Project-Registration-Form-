@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
-    <link rel="stylesheet" href="https://fontawesome.com/icons/eye-slash?f=sharp&s=solid">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <style>
         body {
             margin: 0;
@@ -74,7 +74,6 @@
             float: right;
             height: 71%;
             background-color: #fff0f0;
-            display: inline-block;
             width: 18%;
             padding: 33px 111px;
             border-top-right-radius: 20px;
@@ -168,6 +167,24 @@
             float: left;
         }
 
+        .fa-eye {
+            position: relative;
+            top: 27px;
+            left: 85px;
+        }
+
+        .fa-user {
+            position: relative;
+            top: 27px;
+            left: 82px;
+        }
+
+        .fa-envelope {
+            position: relative;
+            top: 27px;
+            left: 72px;
+        }
+
         .forget {
             margin-left: 125px;
             font-size: 11px;
@@ -216,15 +233,15 @@
                 <h1>Sign up</h1>
                 <div class="inside-form">
                     <label class="label" for=" User Name"> User Name</label>
-                    <input class="inp" type="text" name="name" placeholder="Username">
+                    <input class="inp" type="text" name="name" placeholder="Username"><i class="fa-solid fa-user"></i>
                 </div>
                 <div class="inside-form">
                     <label class="label" for="Email">Email address</label><input class="inp" type="email"
-                        name="my email" placeholder="Email or Mobile Number">
+                        name="my email" placeholder="Email or Mobile Number"><i class="fa-regular fa-envelope"></i>
                 </div>
                 <div class="inside-form">
                     <label class="label" for=" Password"> Password</label><input class="inp" type="text" name="name"
-                        placeholder="********">
+                        placeholder="********"><i class="fa-solid fa-eye"></i>
                 </div>
                 <div class="forget">
                     <input class="checkbox" type="checkbox" name=""> Forget Password
